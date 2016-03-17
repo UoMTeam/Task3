@@ -5,6 +5,8 @@ body
 }
 #contentcontainer
 {
+    position: relative;
+    _display:inline;
     width:100%;
     height: auto !important;
     background: #999;
@@ -14,22 +16,18 @@ body
 #contentleft
 {
     width:200px;
-    position: absolute;
-    left: 40px;
-    top: 40px;
+    float: left;
+    margin: 20px;
     background: #eee;
     height:auto !important;
-    /*padding-bottom:100000px;margin-bottom:-100000px;*/
 }
 
 #contentright
 {
     width:120px;
-    position: absolute;
-    right: 40px;
-    top: 40px;
+    float: right;
+    margin: 20px;
     background: #eee;
-    /*padding-bottom:100000px;margin-bottom:-100000px;*/
     height:auto !important;
 }
 
