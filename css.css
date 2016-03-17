@@ -37,3 +37,17 @@ body
     margin: 20px 160px 20px 240px;
     height: auto !important;
 }
+
+#logo
+{
+    padding: 20px;
+    float: left;
+
+}
+
+#groupname
+{
+    padding: 20px;
+    float: right;
+    text-align:top;
+}
