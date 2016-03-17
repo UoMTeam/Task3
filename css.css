@@ -1,0 +1,41 @@
+body
+{
+    margin: 0;
+    padding: 20px;
+}
+#contentcontainer
+{
+    width:100%;
+    height: auto !important;
+    background: #999;
+    overflow:hidden;
+}
+
+#contentleft
+{
+    width:200px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background: #eee;
+    height:auto !important;
+    /*padding-bottom:100000px;margin-bottom:-100000px;*/
+}
+
+#contentright
+{
+    width:120px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background: #eee;
+    /*padding-bottom:100000px;margin-bottom:-100000px;*/
+    height:auto !important;
+}
+
+#contentcenter
+{
+    background: #eee;
+    margin: 20px 160px 20px 240px;
+    height: auto !important;
+}
