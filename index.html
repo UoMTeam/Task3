@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_3</title>
+
+<style type="text/css">
+	
+	body{
+		border: solid 1px #999;
+		padding: 20px;
+		margin: 0;
+	}
+
+	div{
+		border: solid 1px #999;
+		padding: 20px;
+		overflow: hidden;
+	}
+
+	.father_box{
+		background-color: #eee;
+	}
+
+	#left_box{
+		width: 158px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	#right_box{
+		width: 120px;
+		float: right;
+		margin-left: 20px;
+	}
+
+	#central_box{
+		/*text-align:*/ 
+		/*margin: 0 20px;*/
+	}
+
+	.children{
+		padding: 20px;
+		background-color: white;
+	}
+
+	#left_box img{ 
+		width: 80px;
+		height: 80px;
+		float: left;
+	}
+
+	#team_name{
+		font-size: 17px;
+		font: bold;
+		border: 0;
+		padding: 0 12px;
+		float: right;
+	}
+
+
+</style>
+
+</head>
+<body>
+
+	<div class="father_box">
+		
+		<div id="left_box" class="children">
+			<img src="logo.png">
+			<div id="team_name">UoM队</div>
+		</div>
+		<div id="right_box" class="children"></div>
+		<div id="central_box" class="children"></div>
+
+
+	</div>
+	
+</body>
+</html>
