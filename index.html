@@ -10,6 +10,7 @@
 		border: solid 1px #999;
 		padding: 20px;
 		margin: 0;
+		height: 100%;
 	}
 
 	div{
@@ -29,7 +30,7 @@
 	}
 
 	#right_box{
-		width: 120px;
+		width: 78px;
 		float: right;
 		margin-left: 20px;
 	}
@@ -46,10 +47,14 @@
 		background-color: white;
 	}
 
-	#left_box img{ 
+	img{ 
 		width: 80px;
 		height: 80px;
 		float: left;
+	}
+
+	#right_box > img:not(:first-child){
+		margin-top: 20px;
 	}
 
 	#team_name{
@@ -73,7 +78,14 @@
 			<img src="logo.png">
 			<div id="team_name">UoM队</div>
 		</div>
-		<div id="right_box" class="children"></div>
+
+		<div id="right_box" class="children">
+			<img src="stu1.png" alt="">
+			<img src="stu2.png" alt="">
+			<img src="stu3.png" alt="">
+			<img src="stu4.png" alt="">
+		</div>
+
 		<div id="central_box" class="children">
 			<p>
 				梁超，因为年龄原因在小组里面被称为超哥，或者被亲切的称为超。性格外向，交友广阔，为人正直讲义气。对女朋友也格外好。会在各大商场打折的时候陪女朋友逛街。超哥有设计功底，勤奋好学，对网络前段技术学习热情高，技术长得最快，是我们组的顶梁柱。<br>
